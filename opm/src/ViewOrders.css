@@ -1,0 +1,111 @@
+.background_imgd{
+    height: 100%;
+    width: 100%;
+    background-image:url("https://gomohealth.com/wp-content/uploads/2019/09/healthcare-provider-graphic-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align:left;
+    min-height: 100vh;
+  }
+
+  .containerd_{
+
+    height: 100%;
+
+    min-height: 30vh;
+
+    width: 100%;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    align-items: center;
+
+  }
+
+  .abcdefgd{
+
+    display: inline-flex;
+
+    padding-top:100px;
+
+    padding-left:400px;
+
+    align-items: center;
+
+  }
+
+    .abcdefgd Button {
+
+      gap: 20px;
+
+      background-size:cover;
+
+      width:250px;
+
+      height:50px;
+
+      cursor: pointer;
+
+      text-align: center;
+
+      background-size:cover;
+
+      outline: none;
+
+      border: none;
+
+      background-color: darkblue;
+
+      color: #fff;
+
+      border-radius: 5px;
+
+      font-weight: bold;
+
+      font-size: 25px;
+
+    }
+
+  .abcdefgd Button:disabled {
+
+      background-color: gray !important;
+
+  }
+
+  .abcdefgd Button:hover {
+
+      background-color: green;
+
+  }
+
+  .container_tabled{
+
+      width: 60%;
+
+      align-items: center;
+
+  }
+
+
+
+
+  .stock_containerd{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    object-fit: contain;
+
+    overflow: hidden
+
+  }

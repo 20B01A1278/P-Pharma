@@ -1,0 +1,16 @@
+.mainpagecontainer {
+    /* background : url("https://www.bing.com/ck/a?!&&p=50ede92cca56a08bJmltdHM9MTY4NTMxODQwMCZpZ3VpZD0xYWY4NWY2Yy1iMjVhLTY1ZTgtMjU2Ny00YzYwYjNlODY0MGYmaW5zaWQ9NTY2NQ&ptn=3&hsh=3&fclid=1af85f6c-b25a-65e8-2567-4c60b3e8640f&u=a1L2ltYWdlcy9zZWFyY2g_cT13aGl0ZSBiYWNrZ3JvdW5kIGltYWdlJkZPUk09SVFGUkJBJmlkPUQ3QUVEMTkzRjBFQzkyOEExNDNBQjk0NUEwMjk4MjdGQzg2RTE0QzU&ntb=1") ; */
+    background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    max-width : 100% ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    overflow: hidden;
+    font-size: 30px;
+}

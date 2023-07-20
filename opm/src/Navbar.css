@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+:root {
+	 --mainColor: #ffffff;/*navbar */
+	--mainColorLight: #ffff;/*navbar txt*/
+	--secondaryColor: #090549;/*providence*/
+	font-family:sans-serif;
+}
+.providence img{
+		width : 200px;
+		float : left ;
+		height : 80px;
+		display: flex;
+		padding-left: 30px;
+		/* padding-top: 30px; */
+}
+header {
+	display: flex;
+	align-items: center;
+	/* background: url('https://tse2.mm.bing.net/th?id=OIP._FO46LKA6f9_sGSVd38wJQHaEK&pid=ImgDet&rs=1') ; */
+	/* justify-content: space-between; */
+	/* background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%); */
+	height: 80px;
+    width: 100%;
+	background-color: var(--mainColor);
+	color: #3f6ac8;
+	top: 0;
+	position:fixed;
+}
+nav a {
+	margin: 0 1rem;
+	color: #3f6ac8;
+	text-decoration: none;
+    font-size: 25px;
+	transition: 0.3s;
+	border-radius: 0 5px 5px 0;
+    font-weight: bold;
+	font-family: Barlow, sans-serif;
+}
+
+nav a:hover{
+	/* color: white; */
+	bottom : 2;
+	/* background-color: #3f6ac8; */
+	height: 4vh;
+	text-decoration: underline;
+}
+
+header .nav-btn {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	/* color: var(--textColor); */
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+/* header div, */
+nav {
+	display: flex;
+	align-items : center;
+    padding-left: 890px;
+}
+h3{
+    padding-left: 70px ;
+}
+.navbar {
+	background: #222629;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+  }
+  .navbar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	max-width: 1500px;
+  }
+  .navbar-logo {
+	color: #fff;
+	justify-self: start;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+  }
+  .navbar-logo:hover {
+	color: #fff;
+  }
+  .fa-typo3 {
+	margin-left: 0.5rem;
+	font-size: 1.8rem;
+  }
+  .nav-menu {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-gap: 10px;
+	list-style: none;
+	text-align: center;
+	width: 60vw;
+	justify-content: end;
+	margin-right: 2rem;
+  } 
+  .nav-item {
+	height: 80px;
+  }
+  .nav-links {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	height: 100%;
+  }
+  .nav-links:hover {
+	color: #fff;
+	border-bottom: 4px solid #fff;
+	transition: all 0.2s ease-out;
+  }
+  .fa-bars {
+	color: #fff;
+  }
+  .nav-links-mobile {
+	display: none;
+  }
+  .menu-icon {
+	display: none;
+  }
+  @media screen and (max-width: 280px) {
+	/* Screens with a width of 280px or smaller */
+	:root {
+	  --mainColor: #ffffff;
+	  --mainColorLight: #ffff;
+	  --secondaryColor: #090549;
+	}
+	.providence img {
+	  width: 150px;
+	  height: 60px;
+	  padding-left: 20px;
+	}
+	header nav {
+	  padding-left: 20px;
+	}
+	h3 {
+	  padding-left: 20px;
+	}
+  }
+  
+  @media screen and (min-width: 281px) and (max-width: 576px) {
+	/* Extra small devices (phones) */
+	:root {
+	  --mainColor: #ffffff;
+	  --mainColorLight: #ffff;
+	  --secondaryColor: #090549;
+	}
+	.providence img {
+	  width: 180px;
+	  height: 70px;
+	  padding-left: 25px;
+	}
+	header nav {
+	  padding-left: 50px;
+	}
+	h3 {
+	  padding-left: 50px;
+	}
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+	/* Small devices (portrait tablets, large phones) */
+	:root {
+	  --mainColor: #ffffff;
+	  --mainColorLight: #ffff;
+	  --secondaryColor: #090549;
+	}
+	.providence img {
+	  width: 200px;
+	  height: 80px;
+	  padding-left: 30px;
+	}
+	header nav {
+	  padding-left: 100px;
+	}
+	h3 {
+	  padding-left: 100px;
+	}
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+	/* Medium devices (landscape tablets) */
+	:root {
+	  --mainColor: #ffffff;
+	  --mainColorLight: #ffff;
+	  --secondaryColor: #090549;
+	}
+	.providence img {
+	  width: 200px;
+	  height: 80px;
+	  padding-left: 30px;
+	}
+	header nav {
+	  padding-left: 100px;
+	}
+	h3 {
+	  padding-left: 100px;
+	}
+  }
+  
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+	/* Large devices (laptops, desktops) */
+	:root {
+	  --mainColor: #ffffff;
+	  --mainColorLight: #ffff;
+	  --secondaryColor: #090549;
+	}
+  }
+  
+  @media screen and (min-width: 1201px) {
+	/* Extra large devices (large desktops) */
+	:root {
+	  --mainColor: #ffffff;
+	  --mainColorLight: #ffff;
+	  --secondaryColor: #090549;
+	}
+  }
+   

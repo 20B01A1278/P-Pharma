@@ -1,0 +1,45 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+
+  .photo_div{
+    width: 30%;
+    padding: 1cm;
+    /* margin-left: '3cm'; */
+  }
+
+  .info{
+    width: 50%;
+    padding: 1cm;
+
+  }
+
+  .Container{
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    /* background-color: aqua; */
+    padding-top: '1cm';
+    margin-top: '2cm';
+  }
+
+  *{
+
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .proimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    
+  }
+  
+

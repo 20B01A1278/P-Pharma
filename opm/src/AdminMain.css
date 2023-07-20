@@ -1,0 +1,17 @@
+.pal {
+    background: url('https://gomohealth.com/wp-content/uploads/2019/09/healthcare-provider-graphic-background.jpg') center center/cover no-repeat;
+    /* background-color: #acaf7e; */
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    max-width : 100% ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    overflow: hidden;
+    font-size: 30px;
+
+}

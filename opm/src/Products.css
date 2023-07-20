@@ -1,0 +1,87 @@
+.prodcontainer {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    /* background-image:url("https://gomohealth.com/wp-content/uploads/2019/09/healthcare-provider-graphic-background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 300px; */
+    display:inline;
+  }
+.prodcontainer h1{
+  padding-right: 200px;
+}
+.prodinnerBox Button{
+  flex-direction: column;
+  gap: 20px;
+  background-size:cover;
+  width:320px;
+  height:250px;
+  cursor: pointer;
+}
+.prodinnerBox Button:hover {
+  opacity: 0.8;
+}
+.prodinnerBox Button p{
+  padding-top:170px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size:25px;
+  /* color:black */
+}
+.nextcontainer {
+  flex-direction: column;
+  height: 400px;
+  gap: 20px;
+  /* min-height: 100vh;  */
+  width: 250px;
+  background-size:cover;
+  /* background-image:url("https://gomohealth.com/wp-content/uploads/2019/09/healthcare-provider-graphic-background.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor : pointer
+}
+.nextcontainer button {
+  outline: none;
+  border: none;
+  color: #00338e;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 100ms;
+  cursor: pointer;
+}
+.nextcontainer button:hover {
+  background-color: green;
+  opacity: 0.8;
+}
+.nextcontainer div{
+  display: inline-block;
+}
+  .prodinnerBox {
+    min-width: 100px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    padding: 40px;
+    margin:auto;
+  }
+  .prodheading{
+    text-align: center;
+  }
+  .header1 {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: var(--mainColor);
+    color: #3f6ac8;
+    /* top: 0;
+
+    position:fixed; */
+
+}

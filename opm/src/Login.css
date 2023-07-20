@@ -1,0 +1,122 @@
+.lcontainer {
+  background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  max-width : 100% ;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.innerBox {
+  min-width: 480px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.heading{
+  text-align: center;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.foot .error {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #ff3300;
+  text-align: center;
+}
+.foot button {
+  outline: none;
+  border: none;
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: 100%;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.foot button:disabled {
+  background-color: gray !important;
+}
+
+.foot button:hover {
+  background-color: green;
+}
+
+.foot p {
+  
+  font-weight: 700;
+  color: #000;
+}
+
+.foot p span a {
+  font-weight: bold;
+  color: green;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.foot p {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  /* Extra small devices (phones) */
+  .innerBox {
+    min-width: 100%;
+    padding: 15px;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Small devices (portrait tablets, large phones) */
+  .innerBox {
+    min-width: 480px;
+    padding: 20px;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Medium devices (landscape tablets) */
+  .innerBox {
+    min-width: 768px;
+    padding: 25px;
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* Large devices (laptops, desktops) */
+  .innerBox {
+    min-width: 992px;
+    padding: 30px;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  /* Extra large devices (large desktops) */
+  .innerBox {
+    min-width: 1200px;
+    padding: 30px;
+    gap: 30px;
+  }
+}
+
